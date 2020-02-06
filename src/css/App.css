@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.mainBody {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.roomImg, h5 {
+    width: 450px;
+}
+
+.custImg {
+    width: 50px;
+    height: 50px;
+    object-fit: scale-down;
+    border-radius: 100%;
+}
+
+h4 {
+    margin: 0;
+}
+
+h5 {
+    margin: 0 0 10px 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bottomSection {
+    display: flex;
+}
+
+.customerName {
+    font-weight: bold;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.customerLocation {
+    margin: 0;
+    padding-left: 20px;
+}
